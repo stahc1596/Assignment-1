@@ -24,10 +24,8 @@ public class A1Q7 {
              population = population*growth;
          }
          //For loop does all the math for the population in 10 years
-         population = population*1000000000;
-         //Population changed to billions
          System.out.println("Therefore the population will be " + population);
-         System.out.println("in 10 years");
+         System.out.println("billion in 10 years");
          //Gives the user the population number
          
     }
