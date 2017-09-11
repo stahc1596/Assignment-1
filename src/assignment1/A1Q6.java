@@ -22,9 +22,8 @@ public class A1Q6 {
         //System asks user to enter a number between 50 and 100
         int num = in.nextInt();
         //User enters a number
-        for(int i = 100; i >= num; i--){
+        for(int i = 100; i >= num; i-=5){
             System.out.println(i);
-            i = i - 4;
         }
         //For loop prints every number from 100 to requested number in intevals
         //of 5
